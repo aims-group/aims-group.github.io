@@ -1,4 +1,4 @@
-aims-group.gitthub.io
+aims-group.github.io
 =====================
 
 temp off site, site
