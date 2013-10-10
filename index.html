@@ -4,9 +4,27 @@
     <meta charset="utf-8">
     <title> LLNL </title>
   </head>
-
   <body>
     <style type="text/css">
+      div.hero-unit {
+        position: relative;
+        z-index: 1;
+      }
+      div.hero-unit div.hero-bg {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: .15;
+        background: url(http://esgf.org/media/images/llnl.jpg) center center no-repeat;
+        width: 100%;
+        height: 100%;
+      }
+      div.span12 {
+        margin-bottom: 30px;
+      }
       div.announcement {
         background: none;
         border: 1px solid #ccc;
@@ -14,6 +32,8 @@
         margin:  auto;
         margin-bottom: 20px;
         padding: 15px 30px;
+        min-height: 600px;
+        min-width: 600px;
         width:   75%;
       }
       div.announcement h3 {
@@ -25,11 +45,12 @@
     </style>
 
     <div class="hero-unit announcement">
+      <div class="hero-bg"></div>
       <p> 
         <center>
-          Due to the Federal government shutdown, llnl.gov and most associated web sites are unavailable.
+          <h2>Due to the Federal government shutdown, llnl.gov <br/> and most associated web sites are unavailable.</h2>
           <br/><br/>
-          If you are looking for pcmdi data please see the <a href="https://github.com/ESGF/esgf.github.io/wiki/Shutdown-Status">status page</a>.
+          <h2>If you are looking for pcmdi data, <br/> please see the <a href="https://github.com/ESGF/esgf.github.io/wiki/Shutdown-Status">status page</a>.</h2>
           <br><br>
         </center>
       </p> 
